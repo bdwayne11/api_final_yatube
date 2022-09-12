@@ -22,7 +22,7 @@ class CommentSerializer(serializers.ModelSerializer):
         fields = '__all__'
         read_only_fields = ('post',)
         model = Comment
-    
+
 
 class GroupSerializer(serializers.ModelSerializer):
 

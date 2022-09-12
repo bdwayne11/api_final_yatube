@@ -47,7 +47,7 @@ class Follow(models.Model):
         User, on_delete=models.CASCADE, related_name='following',
         null=True, blank=True
     )
-    
+
     class Meta:
         ordering = ('following',)
         constraints = (
